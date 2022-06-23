@@ -1,0 +1,17 @@
+Esta es una API creada con Node JS, ORM Sequialize y base de datos Postgres, con entrada y salida de tipo JSON.
+Cada usuario se encuentra protegido por un JWT.
+
+Cuenta con la opción de crear un usuario (administrador o cliente) e iniciar sesión. Simula el inventario de una tienda.
+
+El usuario administrador puede crear, actualizar y eliminar productos. Además este usuario administrador puede ver las
+
+compras a detalle (nombre del producto, precio, cantidad y fecha) realizadas por el usuario cliente.
+
+
+
+El usuario cliente cuenta con un módulo de compras (cart) donde puede agregar uno o varios productos, ver la cantidad por
+
+cada producto, información completa de la compra además del historial de productos comprados. 
+
+
+ 
